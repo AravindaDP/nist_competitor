@@ -42,7 +42,7 @@ def launch_setup(context, *args, **kwargs):
     # ARIAC_environment
     ariac_environment = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            [FindPackageShare("ariac_gazebo"), "/launch", "/ariac.launch.py"]
+            [FindPackageShare("nist_competitor"), "/launch", "/ariac.launch.py"]
         ),
         launch_arguments={
             'trial_name': trial_name,
