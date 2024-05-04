@@ -86,7 +86,7 @@ def launch_setup(context, *args, **kwargs):
         launch_arguments={
             'world': world_path,
             'record': record_state,
-            'gui': False,          
+            'gui': "false",          
         }.items()
     )
 
